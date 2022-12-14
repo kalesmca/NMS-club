@@ -13,7 +13,8 @@ import { async } from "@firebase/util";
 const initObj = {
     name: "",
     mobile: "",
-    dob:""
+    dob:"",
+    isEditMode: false
 }
 const RegistrationComponent = () =>{
     const [obj, setObj] = useState(initObj)
