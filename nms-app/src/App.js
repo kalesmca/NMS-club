@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import RegistrationComponent from './containers/registration';
 import ListComponent from './containers/list';
 
